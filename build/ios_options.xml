@@ -1,0 +1,12 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+<!--<sdkVersion>6.0.0</sdkVersion>-->
+    <linkerOptions>
+	    <option>-ios_version_min 6.0</option>
+	    <option>-lz.1.1.3</option>
+	    <option>-framework StoreKit</option>
+    </linkerOptions>
+    <packagedDependencies>
+    	<packagedDependency>iOSLib/Parse.framework</packagedDependency>
+    </packagedDependencies>
+</platform>
+

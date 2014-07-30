@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.kumade.ane.parse.analytics.extension</id>
+    <versionNumber>1.0.0</versionNumber>
+    <platforms>
+    <!--
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>xxx.jar</nativeLibrary>
+                <initializer>xxxxx</initializer>
+            </applicationDeployment>
+        </platform>
+    -->
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libParseAnalyticsANEiOS.a</nativeLibrary>
+                <initializer>ParseAnalyticsAneExtensionInitializer</initializer>
+                <finalizer>ParseAnalyticsAneExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+        <!--
+        <platform name="iPhone-x86">
+            <applicationDeployment>
+                <nativeLibrary>libParseAnalyticsANEiOS.a</nativeLibrary>
+                <initializer>ParseAnalyticsAneExtensionInitializer</initializer>
+                <finalizer>ParseAnalyticsAneExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+        -->
+        <platform name="default">
+            <applicationDeployment/>
+        </platform>
+    </platforms>
+</extension>
