@@ -1,6 +1,9 @@
 #Parse Analytics ANE
 
-Adobe native extension for Parse <https://www.parse.com/> Analytics. It support for iOS only now.
+Adobe native extension for Parse Analytics.
+https://www.parse.com/
+
+It supports for iOS only now.
 
 ##How to build it
 
